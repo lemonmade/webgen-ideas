@@ -1,0 +1,24 @@
+{
+  "name": "webgen",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Chris Sauve <chrismsauve@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^10.9.4",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "@types/change-case": "^2.3.1",
+    "@types/fs-extra": "^5.0.4",
+    "@types/inquirer": "^0.0.43",
+    "change-case": "^3.0.2",
+    "fs-extra": "^7.0.0",
+    "inquirer": "^6.2.0"
+  }
+}
